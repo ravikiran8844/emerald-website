@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const HomeSection1 = () => {
   return (
-    <section className="container py-16">
+    <section className="page_wrapper py-16">
       <div className="text-center space-y-4 md:space-y-8">
         <div>
           <Image
@@ -20,7 +20,7 @@ const HomeSection1 = () => {
         <div className="text-2xl lg:text-4xl text-[#636367]">
           Emerald Steps into it's 40th Year with all your support!
         </div>
-        <div className="max-w-[800px] mx-auto text-sm lg:text-xl text-[#EBEBEB]">
+        <div className="max-w-[800px] mx-auto text-md lg:text-xl text-[#EBEBEB]">
           Experience the breadth and depth of the Emerald, with the professional
           services, infrastructure, support, and security that a large business
           needs.
