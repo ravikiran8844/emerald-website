@@ -9,13 +9,14 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { HiOutlineMenu } from "react-icons/hi";
+import MainMenuLinks from "./MainMenuLinks";
 
 const Header = () => {
   return (
     <header>
       <div className="hidden xl:block">
         <nav className="page_wrapper py-4">
-          <div className="flex justify-between gap-10 items-center">
+          <div className="grid grid-cols-[20%,auto,20%] gap-10">
             <div>
               <Image
                 className="h-12"
@@ -26,9 +27,11 @@ const Header = () => {
               />
             </div>
 
-          
+            <div className="m-auto">
+            <MainMenuLinks/>
+            </div>
 
-            <div className="text-base">Ghar Ghar Meh Emerald!</div>
+            <div className="text-base flex items-center justify-end">Ghar Ghar Meh Emerald!</div>
           </div>
         </nav>
       </div>

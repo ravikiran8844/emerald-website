@@ -15,7 +15,9 @@ const Footer = () => {
   return (
     <footer className="py-10">
       <section className="page_wrapper">
+        
         <div className="hidden lg:block">
+        <div>
           <div className="flex flex-wrap gap-4 items-center justify-center mb-10 border border-[#3F3F3F] bg-[#1e1e1e80] w-fit m-auto py-2 px-4 rounded-full">
             <Link
               href="/"
@@ -61,13 +63,14 @@ const Footer = () => {
             - The Perfect Piece Awaits
           </div>
         </div>
+        </div>
 
         <div className="hidden md:block">
           <div className="relative mt-16 ">
             <div className="max-w-4xl m-auto">
               <div className="bg-gold rounded-2xl p-10 flex justify-between items-center text-black">
                 <div className="text-2xl font-bold">Connect With Us</div>
-                <div className="text-lg font-medium flex gap-1 items-center justify-center">
+                <div className="text-xl font-bold flex gap-1 items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -119,34 +122,33 @@ const Footer = () => {
                 <div>
                   <div className="grid grid-cols-3 gap-10">
                     <div>
-                      <div className="text-base mb-3">Company</div>
+                      <div className="text-lg font-semibold mb-3">Company</div>
 
-                      <div className="flex flex-col gap-2 text-sm">
+                      <div className="flex flex-col gap-2 text-md">
                         <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
+                        <Link href="#">Certifications</Link>
+                        <Link href="#">What’s New</Link>
+                        <Link href="#">Our story</Link>
                       </div>
                     </div>
 
                     <div>
-                      <div className="text-base mb-3">Company</div>
+                      <div className="text-lg font-semibold mb-3">Information</div>
 
-                      <div className="flex flex-col gap-2 text-sm">
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
+                      <div className="flex flex-col gap-2 text-md">
+                        <Link href="#">Customer Support</Link>
+                        <Link href="#">Terms & Conditions</Link>
+                        <Link href="#">Privacy Policy</Link>
                       </div>
                     </div>
                     <div>
-                      <div className="text-base mb-3">Company</div>
+                      <div className="text-lg font-semibold mb-3">Quick Links</div>
 
-                      <div className="flex flex-col gap-2 text-sm">
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
-                        <Link href="#">About</Link>
+                      <div className="flex flex-col gap-2 text-md">
+                        <Link href="#">Sustainability</Link>
+                        <Link href="#">Media</Link>
+                        <Link href="#">Blog</Link>
+                        <Link href="#">Careers</Link>
                       </div>
                     </div>
                   </div>
