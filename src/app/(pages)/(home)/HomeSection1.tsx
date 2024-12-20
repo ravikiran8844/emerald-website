@@ -18,7 +18,7 @@ const HomeSection1 = () => {
           />
         </div>
         <div className="text-2xl lg:text-4xl text-[#636367]">
-          Emerald Steps into it's 40th Year with all your support!
+          Emerald Steps into it&apos;s 40th Year with all your support!
         </div>
         <div className="max-w-[800px] mx-auto text-md lg:text-xl text-[#EBEBEB]">
           Experience the breadth and depth of the Emerald, with the professional
