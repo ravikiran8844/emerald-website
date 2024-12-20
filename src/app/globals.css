@@ -74,3 +74,18 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.logo-list > div:not(:last-child) {
+  @apply  border-[#D9D9D9] lg:border-r;
+}
+
+.logo-list > div:nth-child(1) {
+  @apply  border-[#D9D9D9]  max-lg:border-r  max-lg:border-b;
+}
+.logo-list > div:nth-child(2) {
+  @apply  border-[#D9D9D9] max-lg:border-b;
+}
+.logo-list > div:nth-child(3) {
+  @apply  border-[#D9D9D9]  max-lg:border-r;
+}
