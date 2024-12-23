@@ -18,7 +18,7 @@ const Footer = () => {
         
         <div className="hidden lg:block">
         <div>
-          <div className="flex flex-wrap gap-4 items-center justify-center mb-10 border border-[#3F3F3F] bg-[#1e1e1e80] w-fit m-auto py-2 px-4 rounded-full">
+          <div className="flex flex-wrap gap-4 items-center justify-center mb-20 border border-[#3F3F3F] bg-[#1e1e1e80] w-fit m-auto py-2 px-4 rounded-full">
             <Link
               href="/"
               className="py-2 px-6 rounded-full text-white bg-[#ffffff1a]"

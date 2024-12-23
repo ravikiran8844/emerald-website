@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			xs: '320px', // Custom breakpoint for screens 300px and below
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

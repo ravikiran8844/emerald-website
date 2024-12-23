@@ -3,7 +3,7 @@ import React from 'react'
 
 const LogoList = () => {
   return (
-    <div className='page_wrapper grid grid-cols-2 lg:grid-cols-4 py-10 logo-list'>
+    <div className='page_wrapper grid grid-cols-2 lg:grid-cols-4 my-20 logo-list min-h-60'>
        <div
         className='p-4 flex flex-col gap-4 text-center items-center justify-start group transition-transform duration-300 ease-in-out transform'
       >
@@ -14,7 +14,7 @@ const LogoList = () => {
           width={310}
           height={74}
         />
-        <div className='hidden group-hover:block'>
+        <div className='hidden lg:group-hover:block'>
           Collaborating on a strategic development initiative to enhance Nokia’s technology solutions.
         </div>
       </div>
@@ -28,7 +28,7 @@ const LogoList = () => {
           width={310}
           height={74}
         />
-        <div className='hidden group-hover:block'>
+        <div className='hidden lg:group-hover:block'>
           Collaborating on a strategic development initiative to enhance Nokia’s technology solutions.
         </div>
       </div>
@@ -42,7 +42,7 @@ const LogoList = () => {
           width={310}
           height={74}
         />
-        <div className='hidden group-hover:block'>
+        <div className='hidden lg:group-hover:block'>
           Collaborating on a strategic development initiative to enhance Nokia’s technology solutions.
         </div>
       </div>
@@ -56,7 +56,7 @@ const LogoList = () => {
           width={310}
           height={74}
         />
-        <div className='hidden group-hover:block'>
+        <div className='hidden lg:group-hover:block'>
           Collaborating on a strategic development initiative to enhance Nokia’s technology solutions.
         </div>
       </div>
